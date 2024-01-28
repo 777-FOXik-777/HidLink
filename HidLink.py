@@ -203,7 +203,7 @@ def shorten_url(original_url):
             shortened_url = response.text.strip()
             return cleaned_url, shortened_url
         else:
-            print(f"Error {response.status_code}: {response.text}")
+            print(f"Ошибка! {response.status_code}: {response.text}")
     except requests.RequestException as e:
         print(f"An error occurred: {e}")
 
