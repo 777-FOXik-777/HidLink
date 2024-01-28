@@ -1,4 +1,4 @@
-<h1 align="center">HidLink v1</h1>
+<h1 align="center">HidLink</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Версия-3.0.0-cyan?style=flat-square">
