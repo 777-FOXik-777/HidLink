@@ -107,10 +107,8 @@ def res():
         print(Style.RESET_ALL)
   
 def baner():
-    os.chdir('/data/data/com.termux/files/home/installer/banner')
     os.system('clear')
-    os.system('lolcat baner.txt')
-    os.chdir('/data/data/com.termux/files/home/Installer_Files')
+    os.system("""lolcat \n _   _ _     _     _            _     _       _ \n | | | (_) __| | __| | ___ _ __ | |   (_)_ __ | | \n | |_| | |/ _  |/ _  |/ _ \ '_ \| |   | | '_ \| |/ / \n  |  _  | | (_| | (_| |  __/ | | | |___| | | | |   < \n |_| |_|_|\__,_|\__,_|\___|_| |_|_____|_|_| |_|_|\_\""")
 
 
 
@@ -195,7 +193,7 @@ os.chdir('/data/data/com.termux/files/home/HidLink')
 
 
 
-
+baner()
 
 
 
