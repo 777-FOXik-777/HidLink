@@ -83,7 +83,7 @@ if os.path.exists(filename):
     os.system('pkg install python3 -y')
 
     #запуск на installer
-    os.system("""sed -i '/alias installer="cd ~\/HidLink && python HidLink.py/d' ~/.bashrc""")
+    os.system("""sed -i '/alias HidLink="cd ~\/HidLink && python HidLink.py/d' ~/.bashrc""")
     os.system("""sed -i '/printf "\\33\]0; Telegram > @SYPEXHACK\\a"/d' ~/.bashrc""")
 
   
@@ -179,9 +179,8 @@ os.system('clear')
 print(Fore.WHITE+'', Style.BRIGHT)
 print("[+]═════════════════════════════════════════════════[+]")
 print("")
-print("  Этот инструмент создан с целью обучения и повышения")
-print("  квалификации в области безопасности. Важно помнить,")
-print("  что не все скрытые ссылки являются безопасными.")
+print("Этот инструмент создан с целью обучения. Важно помнить,")
+print("что не все замаскированные ссылки являются безопасными.")
 print("")
 print("[+]═════════════════════════════════════════════════[+]")
 print("")
