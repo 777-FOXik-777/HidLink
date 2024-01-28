@@ -131,9 +131,7 @@ else:
 
 def baner():
     os.system('clear')
-    os.system("lolcat \n _   _ _     _     _            _     _       _ \n | | | (_) | | | | _ _  | |   (_)_  | | \n | |_| | |/ _  |/ _  |/ _ \ '_ \| |   | | '_ \| |/ / \n  |  _  | | (_| | (_| |  / | | | |_| | | | |   < \n |_| |_|_|\,_|\,_|\_|_| |_|_|_|_| |_|_|\_\")
-
-
+    os.system("lolcat ~/HidLink/baner.txt")
 #доступ к файлам
 
 os.system('clear')
