@@ -154,7 +154,6 @@ else:
         
     os.system('clear')
     baner()
-    print(Fore.WHITE+'', Style.BRIGHT)
     print (Fore.YELLOW+" ["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам устройства")
     os.system('termux-setup-storage')
     time.sleep(1)
@@ -188,6 +187,14 @@ time.sleep(5)
 
 os.chdir('/data/data/com.termux/files/home/HidLink')
 
+
+
+
+
+
+url = 'https://www.google.com'
+
+original_url = 'https://www.google.com'
 
 
 
