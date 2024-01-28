@@ -62,12 +62,12 @@ python HidLink.py
 ## [√] Для повторного запуска:
 
 ```
-cd ~/installer
-python installer.py
+cd ~/HidLink
+python HidLink.py
 ``` 
 Альтернатива:
 ``` 
-installer
+HidLink
 ``` 
 
 ## [?] Решение типичных проблем:
