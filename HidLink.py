@@ -31,13 +31,8 @@ os.system('clear')
 filename = "/data/data/com.termux/files/home/HidLink/tg_SYPEXHACK"
 
 if os.path.exists(filename):
-    
-    os.system('clear')
 
-
-else:
-      
-    print ('[~] Установка зависимостей... \n')
+      print ('[~] Установка зависимостей... \n')
     time.sleep(2)
     os.system('clear')
        
@@ -66,10 +61,10 @@ else:
 
     print(Fore.WHITE+'', Style.BRIGHT)
     os.system('clear')
-    print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
+    print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
     res()
     time.sleep(1.5)
-    os.system('pkg install wget -y')
+    os.system('pip install requests')
     os.system('clear')
 
     print(Fore.WHITE+'', Style.BRIGHT)
@@ -98,6 +93,12 @@ else:
     os.system('clear')
 
 
+else:
+      
+    os.system('clear')
+
+
+
 
 from colorama import Fore, Style
 
@@ -112,7 +113,7 @@ def res():
 def baner():
     os.system('clear')
     os.system("lolcat ~/HidLink/baner.txt")
-
+    print(Fore.WHITE+'', Style.BRIGHT)
 
 
 # легкий запуск
@@ -177,9 +178,9 @@ os.system('clear')
 print(Fore.WHITE+'', Style.BRIGHT)
 print("[+]═════════════════════════════════════════════════[+]")
 print("")
-print("Этот инструмент создан с целью обучения и повышения")
-print("квалификации в области безопасности. Важно помнить,")
-print("что не все скрытые ссылки являются безопасными.")
+print("  Этот инструмент создан с целью обучения и повышения")
+print("  квалификации в области безопасности. Важно помнить,")
+print("  что не все скрытые ссылки являются безопасными.")
 print("")
 print("[+]═════════════════════════════════════════════════[+]")
 print("")
