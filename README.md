@@ -11,7 +11,7 @@
 <a href="https://github.com/777-FOXik-777"><img title="Просмотры" src="https://img.shields.io/github/watchers/777-FOXik-777/HidLink?color=blue&style=flat-square"></a>
 </p>
 
-![Installer](https://github.com/777-oleg-777/test/blob/main/logo-installer.jpg)
+![Installer](https://github.com/777-oleg-777/test/blob/main/logo-HidLink.jpg)
 
 <p align="center">
 <a href="https://github.com/777-FOXik-777"><img title="Github" src="https://img.shields.io/badge/Github-777%7EFOXik%7E777-indigo?style=for-the-badge&logo=github"></a>
