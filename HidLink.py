@@ -109,6 +109,11 @@ def res():
 
 
 
+def baner():
+    os.system('clear')
+    os.system("lolcat ~/HidLink/baner.txt")
+
+
 
 # легкий запуск
 
@@ -129,9 +134,6 @@ else:
     os.system("""echo 'alias HidLink="cd ~/HidLink && python HidLink.py"' >> ~/.bashrc""")
 
 
-def baner():
-    os.system('clear')
-    os.system("lolcat ~/HidLink/baner.txt")
 #доступ к файлам
 
 os.system('clear')
