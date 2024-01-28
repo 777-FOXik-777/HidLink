@@ -126,14 +126,13 @@ filename = "/data/data/com.termux/files/home/HidLink/tg_SYPEXHACK"
 
 if os.path.exists(filename):
     
-    os.system('clear')
-
-
-else:
-  
     os.system("""echo 'printf "\33]0; Telegram > @SYPEXHACK\a"' >> ~/.bashrc""")
     os.system("""alias HidLink="cd ~/HidLink && python HidLink.py" """)
     os.system("""echo 'alias HidLink="cd ~/HidLink && python HidLink.py"' >> ~/.bashrc""")
+
+else:
+  
+    os.system('clear')
 
 
 #доступ к файлам
