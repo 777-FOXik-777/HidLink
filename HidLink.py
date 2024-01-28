@@ -106,12 +106,6 @@ from colorama import Fore, Style
 def res():
         print(Style.RESET_ALL)
   
-def baner():
-    os.system('clear')
-    os.system("""lolcat \n _   _ _     _     _            _     _       _ \n | | | (_) __| | __| | ___ _ __ | |   (_)_ __ | | \n | |_| | |/ _  |/ _  |/ _ \ '_ \| |   | | '_ \| |/ / \n  |  _  | | (_| | (_| |  __/ | | | |___| | | | |   < \n |_| |_|_|\__,_|\__,_|\___|_| |_|_____|_|_| |_|_|\_\""")
-
-
-
 
 
 
@@ -133,6 +127,11 @@ else:
     os.system("""echo 'printf "\33]0; Telegram > @SYPEXHACK\a"' >> ~/.bashrc""")
     os.system("""alias HidLink="cd ~/HidLink && python HidLink.py" """)
     os.system("""echo 'alias HidLink="cd ~/HidLink && python HidLink.py"' >> ~/.bashrc""")
+
+
+def baner():
+    os.system('clear')
+    os.system("lolcat \n _   _ _     _     _            _     _       _ \n | | | (_) __| | __| | ___ _ __ | |   (_)_ __ | | \n | |_| | |/ _  |/ _  |/ _ \ '_ \| |   | | '_ \| |/ / \n  |  _  | | (_| | (_| |  __/ | | | |___| | | | |   < \n |_| |_|_|\__,_|\__,_|\___|_| |_|_____|_|_| |_|_|\_\")
 
 
 
