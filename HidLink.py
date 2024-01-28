@@ -32,7 +32,7 @@ filename = "/data/data/com.termux/files/home/HidLink/tg_SYPEXHACK"
 
 if os.path.exists(filename):
 
-      print ('[~] Установка зависимостей... \n')
+    print ('[~] Установка зависимостей... \n')
     time.sleep(2)
     os.system('clear')
        
