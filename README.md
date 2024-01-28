@@ -46,7 +46,7 @@ pkg install python -y
 
 ``` 
 git clone https://github.com/777-FOXik-777/HidLink
-cd installer
+cd HidLink
 python HidLink.py
 ``` 
 
