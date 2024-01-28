@@ -191,15 +191,10 @@ os.chdir('/data/data/com.termux/files/home/HidLink')
 
 
 
-baner()
-
-url = input('\n Ввведите url ➤ ')
-
-original_url = input('\n Ввведите org url ➤ ')
 
 def shorten_url(original_url):
     api_url = "https://is.gd/create.php"
-    cleaned_url = original_url.rstrip('/')  # Исправлено имя переменной
+    cleaned_url = original_url.rstrip('/') 
     params = {"format": "simple", "url": cleaned_url}
 
     try:
@@ -212,12 +207,30 @@ def shorten_url(original_url):
     except requests.RequestException as e:
         print(f"An error occurred: {e}")
 
-# Сокращаем только url
+
 shortened_url_result = shorten_url(url)
 
-if shortened_url_result:
-    original_url, shortened_url = shortened_url_result  # Распаковка кортежа
-    print(f"{original_url}@{shortened_url.replace('https://', '')}")
+
+
+
+while True:
+    baner()
+    inp = input('\n Выбери пункт ➤ ')
+    os.system('clear')
+    
+
+
+  
+    if inp == '1':
+      
+        url = input('\n Ввведите url ➤ ')
+        
+        original_url = input('\n Ввведите org url ➤ ')
+        
+        
+        if shortened_url_result:
+            original_url, shortened_url = shortened_url_result  # Распаковка кортежа
+            print(f"{original_url}@{shortened_url.replace('https://', '')}")
 
 
 
