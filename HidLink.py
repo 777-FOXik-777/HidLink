@@ -3,7 +3,7 @@
 # Author     : SYPEXHACK
 # Github     : https://github.com/777-FOXik-777
 # Contact    : https://t.me/SYPEXHACK
-# 1st Commit : 2022
+# 1st Commit : 2024
 # Language   : Python
 #--------------------------------------------------
 
@@ -93,7 +93,7 @@ else:
 
   
     os.system('rm -fr tg_SYPEXHACK')
-    os.chdir('/data/data/com.termux/files/home/installer')
+    os.chdir('/data/data/com.termux/files/home/HidLink')
   
     os.system('clear')
 
@@ -123,7 +123,7 @@ def baner():
 
 os.system('clear')
 
-filename = "/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK"
+filename = "/data/data/com.termux/files/home/HidLink/tg_SYPEXHACK"
 
 if os.path.exists(filename):
     
@@ -167,36 +167,6 @@ else:
 
 
 
-#фото
-
-
-filename = "/data/data/com.termux/files/home/Installer_Files/trash/hack"
-
-if os.path.exists(filename):
-  
-  filename = "/data/data/com.termux/files/home/storage"
-  
-  if os.path.exists(filename):
-
-      filename = "/data/data/com.termux/files/home/installer/image/hack.jpg"
-  
-      if os.path.exists(filename):
-      
-        os.system('mv /data/data/com.termux/files/home/HidLink/info/hack.jpg /sdcard/Pictures')
-        os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/hack')
-        os.system('clear')
-
-      else:
-        os.system('clear')
-  
-  else:
-      os.system('clear')
-
-else:
-    os.system('clear')
-
-
-
 # удаление мусора
 
 
@@ -235,6 +205,6 @@ os.chdir('/data/data/com.termux/files/home/HidLink')
 # Author     : SYPEXHACK
 # Github     : https://github.com/777-FOXik-777
 # Contact    : https://t.me/SYPEXHACK
-# 1st Commit : 2022
+# 1st Commit : 2024
 # Language   : Python
 #--------------------------------------------------
