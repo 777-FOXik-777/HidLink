@@ -99,6 +99,7 @@ else:
 
 
 
+import requests
 
 from colorama import Fore, Style
 
@@ -194,6 +195,31 @@ os.chdir('/data/data/com.termux/files/home/HidLink')
 
 baner()
 
+url = input('\n Ввведите url ➤ ')
+
+original_url = input('\n Ввведите org url ➤ ')
+
+def shorten_url(original_url):
+    api_url = "https://is.gd/create.php"
+    cleaned_url = original_url.rstrip('/')  # Исправлено имя переменной
+    params = {"format": "simple", "url": cleaned_url}
+
+    try:
+        response = requests.get(api_url, params=params)
+        if response.status_code == 200:
+            shortened_url = response.text.strip()
+            return cleaned_url, shortened_url
+        else:
+            print(f"Error {response.status_code}: {response.text}")
+    except requests.RequestException as e:
+        print(f"An error occurred: {e}")
+
+# Сокращаем только url
+shortened_url_result = shorten_url(url)
+
+if shortened_url_result:
+    original_url, shortened_url = shortened_url_result  # Распаковка кортежа
+    print(f"{original_url}@{shortened_url.replace('https://', '')}")
 
 
 
