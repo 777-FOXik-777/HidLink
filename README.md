@@ -72,16 +72,13 @@ installer
 
 ## [?] Решение типичных проблем:
 
-- При первом использовании тунелирования, если вы не получаете ссылку, введите "yes" (без кавычек) и нажмите Enter, чтобы получить ссылку.
 - VPN или прокси препятствуют туннелированию и даже нормальному доступу в Интернет. Отключите их, если у вас возникли проблемы.
-- Некторые утилиты на старых версия Installer могут некорректно или вовсе не работать. Обновите Installer до последней версии для более комфортного использования.
 - Termux из Google Play может некорректно работать. Советую скачать оптимальную версию [Termux](https://t.me/SYPEXHACK_fail/51) (0.118)
 
 ## [~] Полезное:
 
-- ### [Добавить утилиту в Installer](https://forms.gle/vMHny8Yp24HQZqLV9)
-- ### [Другие версии Installer](https://github.com/777-FOXik-777/installer/releases)
-- ### [Обсуждение Installer](https://github.com/777-FOXik-777/installer/discussions)
+- ### [Другие версии Installer](https://github.com/777-FOXik-777/HidLink/releases)
+- ### [Обсуждение Installer](https://github.com/777-FOXik-777/HidLink/discussions)
 - ### [Сообщить об ошибке](https://t.me/SYPEXHACK_help_bot)
 
 ## [~] Подпишись на:
