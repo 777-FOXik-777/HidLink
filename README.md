@@ -1,7 +1,7 @@
 <h1 align="center">HidLink</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Версия-3.0.0-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Версия-1.0.0-cyan?style=flat-square">
   <img src="https://img.shields.io/badge/Написано%20на-Python-blue?style=flat-square">
   <img src="https://img.shields.io/badge/Поддерживается%3F-Да-green?style=flat-square">
 </p>
