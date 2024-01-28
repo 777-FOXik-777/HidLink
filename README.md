@@ -7,8 +7,8 @@
 </p>
 <p align="center">
 <a href="https://github.com/777-FOXik-777"><img title="Подпищиков" src="https://img.shields.io/github/followers/777-FOXik-777?color=red&style=flat-square"></a>
-<a href="https://github.com/777-FOXik-777"><img title="Звезд" src="https://img.shields.io/github/stars/777-FOXik-777/installer?color=yellow&lstyle=flat-square"></a>
-<a href="https://github.com/777-FOXik-777"><img title="Просмотры" src="https://img.shields.io/github/watchers/777-FOXik-777/installer?color=blue&style=flat-square"></a>
+<a href="https://github.com/777-FOXik-777"><img title="Звезд" src="https://img.shields.io/github/stars/777-FOXik-777/HidLink?color=yellow&lstyle=flat-square"></a>
+<a href="https://github.com/777-FOXik-777"><img title="Просмотры" src="https://img.shields.io/github/watchers/777-FOXik-777/HidLink?color=blue&style=flat-square"></a>
 </p>
 
 ![Installer](https://github.com/777-oleg-777/test/blob/main/logo-installer.jpg)
@@ -45,9 +45,9 @@ pkg install python -y
 ### [+] Установка Installer:
 
 ``` 
-git clone https://github.com/777-FOXik-777/installer
+git clone https://github.com/777-FOXik-777/HidLink
 cd installer
-python installer.py
+python HidLink.py
 ``` 
 
 Дальше Installer сделает все за вас: он установит все необходимые компоненты и обеспечит тебе доступ ко всему функционалу.
