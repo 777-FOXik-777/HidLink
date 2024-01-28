@@ -77,8 +77,8 @@ installer
 
 ## [~] Полезное:
 
-- ### [Другие версии Installer](https://github.com/777-FOXik-777/HidLink/releases)
-- ### [Обсуждение Installer](https://github.com/777-FOXik-777/HidLink/discussions)
+- ### [Другие версии HidLink](https://github.com/777-FOXik-777/HidLink/releases)
+- ### [Обсуждение HidLink](https://github.com/777-FOXik-777/HidLink/discussions)
 - ### [Сообщить об ошибке](https://t.me/SYPEXHACK_help_bot)
 
 ## [~] Подпишись на:
