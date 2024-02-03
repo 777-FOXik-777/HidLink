@@ -208,11 +208,11 @@ while True:
     if inp == '1':
 
         baner()
-        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Введите URL, который нужно замаскировать:")
+        print(Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Введите URL, который нужно замаскировать:")
         print(Fore.WHITE+'', Style.BRIGHT)
         original_url = input(' URL ➤ ')
       
-        print (Style.BRIGHT,Fore.YELLOW+"\n ["+Fore.CYAN+"i"+Fore.YELLOW+"] Введите URL-адрес начала ссылки:")
+        print(Style.BRIGHT,Fore.YELLOW+"\n ["+Fore.CYAN+"i"+Fore.YELLOW+"] Введите URL-адрес начала ссылки:")
         print(Fore.WHITE+'', Style.BRIGHT)
         target_url = input(' URL ➤ ')
 
@@ -241,9 +241,11 @@ while True:
             cleaned_target_url = target_url.rstrip('/')
 
 
-        
-            print(f"Target URL: {cleaned_target_url}@{shortened_url}")
-            print(f"Shortened URL: {shortened_url}")
+            baner()
+            print(Style.BRIGHT,Fore.YELLOW+" ["+Fore.CYAN+"i"+Fore.YELLOW+"] Замаскированный URL-адрес:\n")
+            print(f" ➤ {cleaned_target_url}@{shortened_url}")
+            print(Style.BRIGHT,Fore.YELLOW+"\n ["+Fore.CYAN+"i"+Fore.YELLOW+"] Сокращенный URL-адрес:\n")
+            print(f" ➤ {shortened_url}")
           
         exit()
 
