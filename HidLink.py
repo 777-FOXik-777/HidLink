@@ -247,8 +247,9 @@ while True:
         try:
             while True:
                 time.sleep(1)
+              
         except KeyboardInterrupt:
-
+                os.system('clear')
 #--------------------------------------------------
 # ToolName   : HidLink
 # Author     : SYPEXHACK
