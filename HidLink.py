@@ -229,14 +229,17 @@ while True:
 
   
     if inp == '1':
+
+        baner()
+        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Введите URL, который нужно замаскировать:")
+        url = input('\n URL ➤ ')
       
-        url = input('\n Ввведите url ➤ ')
-        
-        original_url = input('\n Ввведите org url ➤ ')
+        print (Style.BRIGHT,Fore.YELLOW+"\n["+Fore.CYAN+"i"+Fore.YELLOW+"] Введите URL-адрес начала ссылки:")
+        original_url = input('\n URL ➤ ')
         
         
         if shortened_url_result:
-            original_url, shortened_url = shortened_url_result  # Распаковка кортежа
+            original_url, shortened_url = shortened_url_result
             print(f"{original_url}@{shortened_url.replace('https://', '')}")
 
 
