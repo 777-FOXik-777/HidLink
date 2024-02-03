@@ -86,7 +86,9 @@ if os.path.exists(filename):
     os.system("""sed -i '/alias HidLink="cd ~\/HidLink && python HidLink.py/d' ~/.bashrc""")
     os.system("""sed -i '/printf "\\33\]0; Telegram > @SYPEXHACK\\a"/d' ~/.bashrc""")
 
-
+else:
+  
+    os.system('clear') 
 
 # легкий запуск
 
@@ -110,11 +112,6 @@ else:
 os.system('rm -fr tg_SYPEXHACK')
 
 os.system('clear')
-
-
-else:
-      
-    os.system('clear')
 
 
 
