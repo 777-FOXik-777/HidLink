@@ -86,11 +86,30 @@ if os.path.exists(filename):
     os.system("""sed -i '/alias HidLink="cd ~\/HidLink && python HidLink.py/d' ~/.bashrc""")
     os.system("""sed -i '/printf "\\33\]0; Telegram > @SYPEXHACK\\a"/d' ~/.bashrc""")
 
+
+
+# легкий запуск
+
+
+os.system('clear')
+
+filename = "/data/data/com.termux/files/home/HidLink/tg_SYPEXHACK"
+
+if os.path.exists(filename):
+    
+    os.system("""echo 'printf "\33]0; Telegram > @SYPEXHACK\a"' >> ~/.bashrc""")
+    os.system("""alias HidLink="cd ~/HidLink && python HidLink.py" """)
+    os.system("""echo 'alias HidLink="cd ~/HidLink && python HidLink.py"' >> ~/.bashrc""")
+
+else:
   
-    os.system('rm -fr tg_SYPEXHACK')
-    os.chdir('/data/data/com.termux/files/home/HidLink')
-  
-    os.system('clear')
+    os.system('clear')  
+
+
+
+os.system('rm -fr tg_SYPEXHACK')
+
+os.system('clear')
 
 
 else:
@@ -121,23 +140,6 @@ def baner():
     os.system("lolcat ~/HidLink/baner.txt")
     print(Fore.WHITE+'', Style.BRIGHT)
 
-
-# легкий запуск
-
-
-os.system('clear')
-
-filename = "/data/data/com.termux/files/home/HidLink/tg_SYPEXHACK"
-
-if os.path.exists(filename):
-    
-    os.system("""echo 'printf "\33]0; Telegram > @SYPEXHACK\a"' >> ~/.bashrc""")
-    os.system("""alias HidLink="cd ~/HidLink && python HidLink.py" """)
-    os.system("""echo 'alias HidLink="cd ~/HidLink && python HidLink.py"' >> ~/.bashrc""")
-
-else:
-  
-    os.system('clear')
 
 
 #доступ к файлам
