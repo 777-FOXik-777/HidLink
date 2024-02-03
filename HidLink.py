@@ -217,7 +217,6 @@ while True:
         target_url = input(' URL ➤ ')
 
     
-        
         def shorten_url(original_url):
             api_url = "https://is.gd/create.php"
             cleaned_url = original_url.rstrip('/')
@@ -226,7 +225,7 @@ while True:
             try:
                 response = requests.get(api_url, params=params)
                 if response.status_code == 200:
-                    shortened_url = response.text.strip()
+                    shortened_url = response.text.strip().replace('https://', '').rstrip('/')
                     return original_url, shortened_url
                 else:
                     print(f"Error {response.status_code}: {response.text}")
@@ -238,10 +237,9 @@ while True:
         
         if shortened_url_result:
             original_url, shortened_url = shortened_url_result
+            print(f"Target URL: {target_url}@{shortened_url}")
+            print(f"Shortened URL: {shortened_url}")
 
-            print(f"Target URL: {target_url}@{shortened_url.replace('https://', '')}")
-
-            print(f"Shortened URL: {shortened_url.replace('https://', '')}")
           
         exit()
 
