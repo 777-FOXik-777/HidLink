@@ -109,6 +109,11 @@ def res():
         print(Style.RESET_ALL)
   
 
+def exit():
+    print(Fore.WHITE+'', Style.BRIGHT)
+    exit = input(' [Нажмите Enter чтобы закрыть]')
+    os.system('clear')
+
 
 
 def baner():
@@ -205,41 +210,43 @@ while True:
         baner()
         print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Введите URL, который нужно замаскировать:")
         print(Fore.WHITE+'', Style.BRIGHT)
-        url = input(' URL ➤ ')
+        original_url = input(' URL ➤ ')
       
         print (Style.BRIGHT,Fore.YELLOW+"\n ["+Fore.CYAN+"i"+Fore.YELLOW+"] Введите URL-адрес начала ссылки:")
         print(Fore.WHITE+'', Style.BRIGHT)
-        original_url = input(' URL ➤ ')
-        
+        target_url = input(' URL ➤ ')
 
+    
+        
         def shorten_url(original_url):
             api_url = "https://is.gd/create.php"
-            cleaned_url = original_url.rstrip('/') 
+            cleaned_url = original_url.rstrip('/')
             params = {"format": "simple", "url": cleaned_url}
         
             try:
                 response = requests.get(api_url, params=params)
                 if response.status_code == 200:
                     shortened_url = response.text.strip()
-                    return cleaned_url, shortened_url
+                    return original_url, shortened_url
                 else:
-                    print(f"Ошибка! {response.status_code}: {response.text}")
+                    print(f"Error {response.status_code}: {response.text}")
             except requests.RequestException as e:
                 print(f"An error occurred: {e}")
-
-
-        shortened_url_result = shorten_url(url)
-      
+        
+        # Сокращаем только original_url
+        shortened_url_result = shorten_url(original_url)
+        
         if shortened_url_result:
             original_url, shortened_url = shortened_url_result
-            print(f"{original_url}@{shortened_url.replace('https://', '')}")
+            print(f"Original URL: {original_url}")
+            print(f"Shortened URL: {shortened_url.replace('https://', '')}")
+            print(f"Target URL: {target_url}")
 
-        try:
-            while True:
-                time.sleep(1)
-              
-        except KeyboardInterrupt:
-                os.system('clear')
+
+        exit()
+
+
+
 #--------------------------------------------------
 # ToolName   : HidLink
 # Author     : SYPEXHACK
