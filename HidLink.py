@@ -237,9 +237,13 @@ while True:
         
         if shortened_url_result:
             original_url, shortened_url = shortened_url_result
-            print(f"Target URL: {target_url}@{shortened_url}")
-            print(f"Shortened URL: {shortened_url}")
+            # Убираем символ "/" из target_url
+            cleaned_target_url = target_url.rstrip('/')
 
+
+        
+            print(f"Target URL: {cleaned_target_url}@{shortened_url}")
+            print(f"Shortened URL: {shortened_url}")
           
         exit()
 
