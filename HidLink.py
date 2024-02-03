@@ -242,10 +242,12 @@ while True:
 
 
             baner()
-            print(Style.BRIGHT,Fore.YELLOW+" ["+Fore.CYAN+"i"+Fore.YELLOW+"] Замаскированный URL-адрес:\n")
-            print(f" ➤ {cleaned_target_url}@{shortened_url}")
-            print(Style.BRIGHT,Fore.YELLOW+"\n ["+Fore.CYAN+"i"+Fore.YELLOW+"] Сокращенный URL-адрес:\n")
-            print(f" ➤ {shortened_url}")
+            print(Style.BRIGHT,Fore.YELLOW+" ["+Fore.CYAN+"i"+Fore.YELLOW+"] Замаскированный URL-адрес:")
+            print(Fore.WHITE+'', Style.BRIGHT)
+            print(f"⠀➤ {cleaned_target_url}@{shortened_url}")
+            print(Style.BRIGHT,Fore.YELLOW+"\n ["+Fore.CYAN+"i"+Fore.YELLOW+"] Сокращенный URL-адрес:")
+            print(Fore.WHITE+'', Style.BRIGHT)
+            print(f"⠀➤ {shortened_url}")
           
         exit()
 
