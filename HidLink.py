@@ -238,11 +238,11 @@ while True:
         
         if shortened_url_result:
             original_url, shortened_url = shortened_url_result
-            print(f"Original URL: {original_url}")
+
+            print(f"Target URL: {target_url}@{shortened_url.replace('https://', '')}")
+
             print(f"Shortened URL: {shortened_url.replace('https://', '')}")
-            print(f"Target URL: {target_url}")
-
-
+          
         exit()
 
 
