@@ -199,7 +199,7 @@ os.chdir('/data/data/com.termux/files/home/HidLink')
 
 while True:
     baner()
-    inp = input('\n Выбери пункт ➤ ')
+    inp = input(' Выбери пункт ➤ ')
     os.system('clear')
     
 
@@ -208,7 +208,7 @@ while True:
     if inp == '1':
 
         baner()
-        print(Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Введите URL, который нужно замаскировать:")
+        print(Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Введите URL-адрес который нужно замаскировать:")
         print(Fore.WHITE+'', Style.BRIGHT)
         original_url = input(' URL ➤ ')
       
@@ -242,14 +242,18 @@ while True:
 
 
             baner()
+            print(Fore.WHITE+'', Style.BRIGHT)
             print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Замаскированный URL-адрес:")
             print(Fore.WHITE+'', Style.BRIGHT)
             print(f"⠀➤ {cleaned_target_url}@{shortened_url}")
             print(Fore.WHITE+'', Style.BRIGHT)
+            print(Fore.WHITE+'', Style.BRIGHT)
             print(Style.BRIGHT,Fore.YELLOW+"["+Fore.GREEN+"i"+Fore.YELLOW+"] Сокращенный URL-адрес:")
             print(Fore.WHITE+'', Style.BRIGHT)
             print(f"⠀➤ https://{shortened_url}")
-          
+
+      
+        print(Fore.WHITE+'', Style.BRIGHT)
         exit()
 
 
