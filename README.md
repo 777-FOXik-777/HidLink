@@ -24,7 +24,7 @@
 ***Hid Link - это простая и удобная программа, которая позволяет вам сократить ссылки и сделать их похожими на другие. Это может быть полезно для защиты конфиденциальности ваших ссылок, скрытие фишинговых ссылок, а также для повышения их привлекательности. Этот инструмент подходит для любого уровня опыта и НЕ требует наличия root-прав на твоем устройстве.***
 
 
-## [√] Установка на [Android](https://ru.wikipedia.org/wiki/Android) [![alt tag](https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://fr.wikipedia.org/wiki/Android)
+## [√] Установка на [Android](https://ru.wikipedia.org/wiki/Android) [![alt tag](https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://ru.wikipedia.org/wiki/Android)
  
 Скачиваем [Termux](https://t.me/SYPEXHACK_files/51) (0.118)
 
