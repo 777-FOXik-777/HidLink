@@ -78,7 +78,8 @@ HidLink
 ## [~] Полезное:
 
 - ### [Другие версии HidLink](https://github.com/777-FOXik-777/HidLink/releases)
-- ### [Сообщить об ошибке](https://t.me/SYPEXHACK_help_bot)
+- ### [Сообщить об ошибке]()
+- ### [Поддержать проект](https://yoomoney.ru/to/4100117367004233/0)
 
 ## [~] Подпишись на:
 
